@@ -1,0 +1,291 @@
+<style>
+.contact-info-section {
+    padding: 80px 0;
+    background: white;
+}
+
+.contact-info-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact-header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.contact-header p {
+    font-size: 1.125rem;
+    color: #666;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.contact-info-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-card {
+    background: linear-gradient(135deg, #fafafa 0%, #ffffff 100%);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border-left: 4px solid #E91E63;
+}
+
+.contact-card:hover {
+    transform: translateX(8px);
+    box-shadow: 0 8px 24px rgba(233, 30, 99, 0.15);
+}
+
+.contact-card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-icon {
+    font-size: 2rem;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(233, 30, 99, 0.3);
+}
+
+.contact-card-header h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #1a1a1a;
+}
+
+.contact-card-content {
+    color: #666;
+    line-height: 1.8;
+}
+
+.contact-card-content a {
+    color: #E91E63;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.contact-card-content a:hover {
+    color: #8BC34A;
+}
+
+.contact-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.contact-btn {
+    flex: 1;
+    padding: 0.875rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-btn-primary {
+    background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);
+    color: white;
+}
+
+.contact-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(233, 30, 99, 0.3);
+}
+
+.contact-btn-whatsapp {
+    background: #25D366;
+    color: white;
+}
+
+.contact-btn-whatsapp:hover {
+    background: #128C7E;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(37, 211, 102, 0.3);
+}
+
+.map-container {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    height: 100%;
+    min-height: 500px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.map-overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+.map-overlay h4 {
+    font-weight: 600;
+    color: #E91E63;
+    margin-bottom: 0.25rem;
+}
+
+.map-overlay p {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+@media (max-width: 1024px) {
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .map-container {
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-header h2 {
+        font-size: 2.25rem;
+    }
+
+    .contact-actions {
+        flex-direction: column;
+    }
+
+    .contact-btn {
+        width: 100%;
+    }
+}
+</style>
+
+<section id="contacto" class="contact-info-section">
+    <div class="contact-info-container">
+        <div class="contact-header">
+            <h2>Contáctanos</h2>
+            <p>Estamos listos para convertir tus ideas florales en algo real</p>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-info-cards">
+                <div class="contact-card">
+                    <div class="contact-card-header">
+                        <div class="contact-icon">📍</div>
+                        <h3>Ubicación</h3>
+                    </div>
+                    <div class="contact-card-content">
+                        <p><strong>Cl. 8 #9-04</strong></p>
+                        <p>Manizales, Caldas</p>
+                        <p>Colombia</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-header">
+                        <div class="contact-icon">📞</div>
+                        <h3>Teléfono</h3>
+                    </div>
+                    <div class="contact-card-content">
+                        <p>
+                            <a href="tel:+573206696209">320 669 6209</a>
+                        </p>
+                        <p>Atendemos de lunes a domingo</p>
+                        <p>Horario: 8:00 AM - 6:00 PM</p>
+                    </div>
+                    <div class="contact-actions">
+                        <a href="tel:+573206696209" class="contact-btn contact-btn-primary">
+                            📞 Llamar Ahora
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-header">
+                        <div class="contact-icon">💬</div>
+                        <h3>WhatsApp</h3>
+                    </div>
+                    <div class="contact-card-content">
+                        <p>Charlemos al instante por nuestro chat</p>
+                        <p>Respuesta ágil y servicio cordial</p>
+                        <p>Recibe fotos y cotizaciones de inmediato</p>
+                    </div>
+                    <div class="contact-actions">
+                        <a href="https://wa.me/573206696209?text=Hola,%20necesito%20información%20sobre%20sus%20flores"
+                           class="contact-btn contact-btn-whatsapp"
+                           target="_blank"
+                           onclick="trackWhatsAppClick('contact-section')">
+                            💬 Abrir WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-header">
+                        <div class="contact-icon">🌐</div>
+                        <h3>Web & Redes</h3>
+                    </div>
+                    <div class="contact-card-content">
+                        <p>
+                            <strong>Web:</strong>
+                            <a href="http://floristeriamanizales.dondeseria.com">floristeriamanizales.dondeseria.com</a>
+                        </p>
+                        <p>
+                            <strong>Email:</strong>
+                            <a href="mailto:info@petalosychocolates.com">info@petalosychocolates.com</a>
+                        </p>
+                        <p>
+                            <strong>Redes Sociales:</strong><br>
+                            <a href="https://www.facebook.com/floristerialashadas" target="_blank">Facebook</a> |
+                            <a href="https://www.instagram.com/floristerialashadas" target="_blank">Instagram</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps?q=Cl.+8+%239-04,+Manizales,+Caldas&output=embed"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Mapa de ubicación Floristería Petalos y Chocolates Manizales">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
