@@ -702,51 +702,18 @@ function renderProducts(filters = [], limit = null) {
         productsToDisplay = productsToDisplay.slice(0, limit);
     }
 
-    updateResultsCount(productsToDisplay.length);
-
-    // Intercalar productos para variedad visual (solo en vista general sin búsqueda)
-    if ((!filters.length || filters[0] === 'todos') && !currentSearchQuery) {
-        const funebre = productsToDisplay.filter(p => p.categories.includes('funebre'));
-        const noFunebre = productsToDisplay.filter(p => !p.categories.includes('funebre'));
-
-        const categoryGroups = {};
-        const categoryOrder = ['dia-madres', 'rosas', 'bouquets', 'cajas', 'canastas', 'girasoles', 'gerberas', 'pompones', 'rosas-eternas', 'coreano', 'novia', 'chocolates', 'premium'];
-
-        noFunebre.forEach(p => {
-            const mainCat = categoryOrder.find(c => p.categories.includes(c)) || 'otros';
-            if (!categoryGroups[mainCat]) categoryGroups[mainCat] = [];
-            categoryGroups[mainCat].push(p);
-        });
-
-        Object.values(categoryGroups).forEach(group => {
-            group.sort((a, b) => a.price - b.price);
-            const temp = [];
-            let lo = 0, hi = group.length - 1;
-            let pickHigh = true;
-            while (lo <= hi) {
-                if (pickHigh) { temp.push(group[hi--]); }
-                else { temp.push(group[lo++]); }
-                pickHigh = !pickHigh;
-            }
-            group.length = 0;
-            group.push(...temp);
-        });
-
-        const interleaved = [];
-        const activeCats = categoryOrder.filter(c => categoryGroups[c] && categoryGroups[c].length > 0);
-        if (categoryGroups['otros'] && categoryGroups['otros'].length > 0) activeCats.push('otros');
-
-        let maxLen = Math.max(...activeCats.map(c => categoryGroups[c].length));
-        for (let i = 0; i < maxLen; i++) {
-            for (const cat of activeCats) {
-                if (categoryGroups[cat] && i < categoryGroups[cat].length) {
-                    interleaved.push(categoryGroups[cat][i]);
-                }
-            }
-        }
-
-        productsToDisplay = [...interleaved, ...funebre];
+    // Orden final: ascendente por precio (los productos con la categoría prioritaria primero, luego el resto)
+    if (LANDING_PRIORITY_TAG) {
+        const priority = productsToDisplay.filter(p => p.categories && p.categories.includes(LANDING_PRIORITY_TAG));
+        const rest = productsToDisplay.filter(p => !p.categories || !p.categories.includes(LANDING_PRIORITY_TAG));
+        priority.sort((a, b) => a.price - b.price);
+        rest.sort((a, b) => a.price - b.price);
+        productsToDisplay = [...priority, ...rest];
+    } else {
+        productsToDisplay.sort((a, b) => a.price - b.price);
     }
+
+    updateResultsCount(productsToDisplay.length);
 
     container.innerHTML = '';
     productsToDisplay.forEach(product => {
