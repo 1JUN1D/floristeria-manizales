@@ -620,6 +620,62 @@ const products = [
         image: "../assets/imagenes/44.webp",
         description: "Arreglo monumental en cascada con rosas de todos los colores, girasoles, frutas y follaje exuberante. Una obra floral de gran impacto reservada para celebraciones extraordinarias.",
         categories: ["premium", "rosas", "girasoles", "precio-alto"]
+    },
+    {
+        id: 78,
+        name: "Detalle Bonita",
+        price: 141250,
+        image: "../assets/imagenes/78.webp",
+        description: "Bouquet en tonos rojos con rosas, alstroemerias y pompones de pétalos morados, decorado con mariposas doradas y una tarjeta especial sobre envoltura kraft. Un detalle tierno y romántico para recordarle lo bonita que es.",
+        categories: ["bouquets", "rosas", "precio-bajo"]
+    },
+    {
+        id: 79,
+        name: "Corazón de Ferrero",
+        price: 330000,
+        image: "../assets/imagenes/79.webp",
+        description: "Caja en forma de corazón con borde de rosas rojas y centro colmado de chocolates Ferrero Rocher, rematada con un lazo rojo de satín. Una declaración de amor irresistible que une lo floral con lo dulce.",
+        categories: ["cajas", "rosas", "chocolates", "premium", "precio-alto"]
+    },
+    {
+        id: 80,
+        name: "Abrazo de Rosas",
+        price: 147500,
+        image: "../assets/imagenes/80.webp",
+        description: "Ramo compacto de rosas rojas rodeado de gypsophila y envoltura dorada con lazo rojo. Una composición clásica y apasionada, perfecta para expresar un amor profundo y sincero.",
+        categories: ["bouquets", "rosas", "precio-medio"]
+    },
+    {
+        id: 81,
+        name: "Caja Negra Ferrero",
+        price: 210000,
+        image: "../assets/imagenes/81.webp",
+        description: "Caja redonda negra con rosas rojas y gypsophila, coronada con una caja de chocolates Ferrero Rocher y lazo rojo. Una propuesta elegante y gourmet que combina romanticismo y sofisticación.",
+        categories: ["cajas", "rosas", "chocolates", "premium", "precio-medio"]
+    },
+    {
+        id: 82,
+        name: "Lirios y Pasión",
+        price: 168750,
+        image: "../assets/imagenes/82.webp",
+        description: "Ramo que combina lirios rosados con rosas rojas, gypsophila y eucalipto sobre envoltura kraft con lazo rojo. Una mezcla delicada y aromática que une la ternura y la pasión en un solo gesto.",
+        categories: ["bouquets", "lirios", "rosas", "precio-medio"]
+    },
+    {
+        id: 83,
+        name: "Corazón Sol y Rosas",
+        price: 312500,
+        image: "../assets/imagenes/83.webp",
+        description: "Bouquet en forma de corazón con girasoles al centro rodeados de rosas rojas, decorado con mariposas y acompañado de chocolates Ferrero Rocher. Una composición vibrante que celebra el amor y la alegría.",
+        categories: ["bouquets", "girasoles", "rosas", "chocolates", "premium", "precio-alto"]
+    },
+    {
+        id: 84,
+        name: "Cumpleaños de Reina",
+        price: 141250,
+        image: "../assets/imagenes/84.webp",
+        description: "Ramo de rosas rojas con gypsophila, corona y mariposas decorativas, acompañado de un globo de Feliz Cumpleaños y tarjeta personalizada. Un regalo majestuoso para celebrar a quien reina en tu corazón.",
+        categories: ["bouquets", "rosas", "precio-bajo"]
     }
 ];
 
