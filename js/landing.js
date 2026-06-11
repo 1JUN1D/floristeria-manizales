@@ -543,11 +543,11 @@ const products = [
     },
     {
         id: 60,
-        name: "Encanto Tulipán",
+        name: "Encanto Rosa y Lirios",
         price: 201250,
         image: "../assets/imagenes/60.webp",
-        description: "Bouquet circular con tulipanes y rosas en tonos rosados y blancos acompañado de un globo en forma de estrella. Una propuesta moderna y soñadora con un toque festivo.",
-        categories: ["tulipanes", "precio-medio"]
+        description: "Bouquet circular con rosas en tonos rosados y blancos combinadas con lirios, acompañado de globos en forma de estrella y envoltura rosa. Una propuesta moderna y soñadora con un toque festivo.",
+        categories: ["rosas", "lirios", "precio-medio"]
     },
     {
         id: 71,
