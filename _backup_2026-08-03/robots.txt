@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://floristeriamanizales.dondeseria.com/sitemap.xml
