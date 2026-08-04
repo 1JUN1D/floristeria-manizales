@@ -799,7 +799,7 @@ function renderProducts(filters = [], limit = null) {
 
 // --- FUNCIONES DE WHATSAPP ---
 function contactWA() {
-    const url = 'https://wa.me/573117522908?text=Hola,%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20flores.%20%C2%BFPodr%C3%ADan%20ayudarme%3F';
+    const url = 'https://wa.me/573117522848?text=Hola,%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20flores.%20%C2%BFPodr%C3%ADan%20ayudarme%3F';
     try {
         gtag('event', 'conversion', {
             'send_to': 'AW-17951767999/DlVjCIeAg_gbEL_7iPBC',
@@ -821,7 +821,7 @@ function orderWA(productName, price, image) {
         message = `Hola, me interesa el producto: ${productName} - ${formatCOP(parseFloat(price))}\nFoto: ${photoUrl}`;
     }
     const encodedMessage = encodeURIComponent(message);
-    const url = `https://wa.me/573117522908?text=${encodedMessage}`;
+    const url = `https://wa.me/573117522848?text=${encodedMessage}`;
     try {
         gtag('event', 'conversion', {
             'send_to': 'AW-17951767999/DlVjCIeAg_gbEL_7iPBC',
