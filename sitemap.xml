@@ -167,4 +167,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Landing: Arreglos Fúnebres -->
+  <url>
+    <loc>http://floristeriamanizales.dondeseria.com/landing/ramos-funebres-manizales.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
 </urlset>
