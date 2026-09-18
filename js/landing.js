@@ -11,7 +11,8 @@ const products = [
         price: 77050,
         image: "../assets/imagenes/14.webp",
         description: "Pequeño bouquet con rosas rojas y rosadas acompañado de gypsophila y eucalipto en papel translúcido con lazo dorado. Un obsequio sencillo y elegante para momentos espontáneos.",
-        categories: ["rosas", "precio-bajo"]
+        categories: ["rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 15,
@@ -27,7 +28,8 @@ const products = [
         price: 77050,
         image: "../assets/imagenes/21.webp",
         description: "Bouquet con girasoles y claveles en tonos rosados y fucsia envuelto en papel rosa con lazo. Una composición campestre y alegre que celebra la vida con frescura.",
-        categories: ["girasoles", "bouquets", "precio-bajo"]
+        categories: ["girasoles", "bouquets", "precio-bajo"],
+        hidden: true
     },
     {
         id: 35,
@@ -35,7 +37,8 @@ const products = [
         price: 77050,
         image: "../assets/imagenes/35.webp",
         description: "Bouquet exuberante con girasol, rosas rojas, gerberas y heliconias en papel blanco con lazo fucsia. Una composición vibrante que evoca la energía y los colores del trópico.",
-        categories: ["bouquets", "girasoles", "gerberas", "precio-bajo"]
+        categories: ["bouquets", "girasoles", "gerberas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 36,
@@ -83,7 +86,8 @@ const products = [
         price: 87400,
         image: "../assets/imagenes/64.webp",
         description: "Pequeña composición con un girasol y rosas rojas envuelta en papel gris con mensaje personalizado escrito a mano. Un detalle tierno y económico para una dedicatoria especial.",
-        categories: ["girasoles", "precio-bajo"]
+        categories: ["girasoles", "precio-bajo"],
+        hidden: true
     },
     {
         id: 27,
@@ -99,7 +103,8 @@ const products = [
         price: 90850,
         image: "../assets/imagenes/16.webp",
         description: "Bouquet de rosas rojas con gypsophila abundante envuelto en papel blanco con lazos negros y blancos. Una propuesta clásica que destaca por su frescura y refinamiento.",
-        categories: ["rosas", "precio-bajo"]
+        categories: ["rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 18,
@@ -107,7 +112,8 @@ const products = [
         price: 95450,
         image: "../assets/imagenes/18.webp",
         description: "Bouquet de rosas rojas con abundante gypsophila envuelto en papel negro con sellos dorados. Una propuesta sofisticada y misteriosa para impresionar con elegancia.",
-        categories: ["rosas", "precio-bajo"]
+        categories: ["rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 10,
@@ -115,7 +121,8 @@ const products = [
         price: 96600,
         image: "../assets/imagenes/10.webp",
         description: "Caja redonda blanca con rosas rojas compactas acompañada de un globo transparente personalizado que flota sobre el arreglo. Un detalle moderno y festivo para celebrar momentos únicos.",
-        categories: ["cajas", "rosas", "precio-bajo"]
+        categories: ["cajas", "rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 19,
@@ -123,7 +130,8 @@ const products = [
         price: 97750,
         image: "../assets/imagenes/19.webp",
         description: "Bouquet con rosas rojas dispuestas en forma de corazón rodeadas de gypsophila y envuelto en papel translúcido. Una declaración romántica con forma simbólica para conmover.",
-        categories: ["rosas", "novia", "precio-bajo"]
+        categories: ["rosas", "novia", "precio-bajo"],
+        hidden: true
     },
     {
         id: 72,
@@ -139,7 +147,8 @@ const products = [
         price: 100625,
         image: "../assets/imagenes/7.webp",
         description: "Pequeña composición que combina un girasol con rosas rojas envuelta en papel translúcido y un lazo rojo decorativo. Un detalle alegre y económico para sorprender con calidez.",
-        categories: ["girasoles", "precio-bajo"]
+        categories: ["girasoles", "precio-bajo"],
+        hidden: true
     },
     {
         id: 23,
@@ -163,7 +172,8 @@ const products = [
         price: 103500,
         image: "../assets/imagenes/34.webp",
         description: "Bouquet de rosas rojas con eucalipto envuelto en papel blanco con bordes dorados y lazo coral. Una propuesta limpia y elegante con un toque de modernidad.",
-        categories: ["rosas", "precio-bajo"]
+        categories: ["rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 39,
@@ -195,7 +205,8 @@ const products = [
         price: 103500,
         image: "../assets/imagenes/63.webp",
         description: "Bouquet de rosas rojas con follaje envuelto en papel con diseño marmolado en blanco, negro y dorado. Una propuesta sofisticada con un envoltorio que evoca el lujo de las superficies pulidas.",
-        categories: ["rosas", "premium", "precio-bajo"]
+        categories: ["rosas", "premium", "precio-bajo"],
+        hidden: true
     },
     {
         id: 65,
@@ -203,7 +214,8 @@ const products = [
         price: 104650,
         image: "../assets/imagenes/65.webp",
         description: "Bouquet abundante con varios girasoles y rosas rojas envuelto en papel blanco y dorado. Una composición luminosa que armoniza la calidez del amarillo con la pasión del rojo.",
-        categories: ["girasoles", "rosas", "precio-bajo"]
+        categories: ["girasoles", "rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 9,
@@ -211,7 +223,8 @@ const products = [
         price: 106950,
         image: "../assets/imagenes/9.webp",
         description: "Bouquet de rosas rojas y blancas envuelto en papel negro con detalles tipográficos y corazones, rematado con un lazo rojo. Una declaración floral intensa para ocasiones románticas memorables.",
-        categories: ["rosas", "precio-bajo"]
+        categories: ["rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 11,
@@ -219,7 +232,8 @@ const products = [
         price: 106950,
         image: "../assets/imagenes/11.webp",
         description: "Bouquet de rosas rojas rodeadas de gypsophila blanca envuelto en papel negro con motivos y rematado con una mariposa dorada decorativa. Una propuesta sofisticada que mezcla romanticismo y misterio.",
-        categories: ["rosas", "precio-bajo"]
+        categories: ["rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 24,
@@ -227,7 +241,8 @@ const products = [
         price: 109250,
         image: "../assets/imagenes/24.webp",
         description: "Bouquet de rosas rojas rodeadas por una nube abundante de gypsophila envuelto en papel blanco con puntos dorados y lazo rojo. Una propuesta que evoca un campo nevado salpicado de pasión.",
-        categories: ["rosas", "precio-bajo"]
+        categories: ["rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 40,
@@ -235,7 +250,8 @@ const products = [
         price: 109250,
         image: "../assets/imagenes/40.webp",
         description: "Bouquet con rosas rojas y pompones rosados con follaje verde envuelto en papel beige con bordes amarillos y lazo rojo. Una composición romántica y campestre con encanto natural.",
-        categories: ["rosas", "pompones", "precio-bajo"]
+        categories: ["rosas", "pompones", "precio-bajo"],
+        hidden: true
     },
     {
         id: 74,
@@ -243,7 +259,8 @@ const products = [
         price: 109250,
         image: "../assets/imagenes/74.webp",
         description: "Ramo de rosas rojas con gypsophila adornado con banda dorada Feliz Día Madre en envoltura blanca y negra con motivos artísticos. Un homenaje elegante y conmovedor para la mujer más importante.",
-        categories: ["rosas", "dia-madres", "precio-bajo"]
+        categories: ["rosas", "dia-madres", "precio-bajo"],
+        hidden: true
     },
     {
         id: 20,
@@ -251,7 +268,8 @@ const products = [
         price: 111550,
         image: "../assets/imagenes/20.webp",
         description: "Bouquet de rosas rojas con eucalipto envuelto en papel blanco con tipografía romántica y lazo borgoña. Una propuesta moderna y cinematográfica para una ocasión memorable.",
-        categories: ["rosas", "precio-bajo"]
+        categories: ["rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 25,
@@ -259,7 +277,8 @@ const products = [
         price: 111550,
         image: "../assets/imagenes/25.webp",
         description: "Bouquet con rosas rojas y gypsophila coronado por un globo transparente con la palabra cumpleaños. Una idea festiva ideal para sorprender en una fecha especial.",
-        categories: ["rosas", "precio-bajo"]
+        categories: ["rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 45,
@@ -283,7 +302,8 @@ const products = [
         price: 121900,
         image: "../assets/imagenes/48.webp",
         description: "Bouquet circular con rosas rojas, fucsias, naranjas y lila acompañado de una tarjeta ilustrada con flores. Una composición que celebra la pasión en todos sus matices.",
-        categories: ["rosas", "bouquets", "precio-bajo"]
+        categories: ["rosas", "bouquets", "precio-bajo"],
+        hidden: true
     },
     {
         id: 13,
@@ -291,7 +311,8 @@ const products = [
         price: 123050,
         image: "../assets/imagenes/13.webp",
         description: "Bouquet con rosas rojas y rosadas combinadas con eucalipto y envueltas en papel rosado pastel con lazo. Una composición fresca y romántica que equilibra intensidad y delicadeza.",
-        categories: ["rosas", "precio-bajo"]
+        categories: ["rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 12,
@@ -299,7 +320,8 @@ const products = [
         price: 129950,
         image: "../assets/imagenes/12.webp",
         description: "Bouquet con rosas y follaje verde coronado por un globo transparente con mensaje personalizado. Una idea original y festiva para sorprender con un toque divertido y romántico.",
-        categories: ["rosas", "precio-bajo"]
+        categories: ["rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 17,
@@ -307,7 +329,8 @@ const products = [
         price: 129950,
         image: "../assets/imagenes/17.webp",
         description: "Bouquet en tonos pasteles con margaritas blancas, rosas rosadas y violetas envuelto en papel fucsia. Una composición primaveral que transmite ternura y vitalidad.",
-        categories: ["bouquets", "precio-bajo"]
+        categories: ["bouquets", "precio-bajo"],
+        hidden: true
     },
     {
         id: 22,
@@ -315,7 +338,8 @@ const products = [
         price: 129950,
         image: "../assets/imagenes/22.webp",
         description: "Bouquet de rosas rojas con gypsophila adornado con un hilo de perlas en papel negro mate y lazo rojo de seda. Una pieza distinguida con un detalle sofisticado que la convierte en una joya floral.",
-        categories: ["rosas", "premium", "precio-bajo"]
+        categories: ["rosas", "premium", "precio-bajo"],
+        hidden: true
     },
     {
         id: 28,
@@ -331,7 +355,8 @@ const products = [
         price: 129950,
         image: "../assets/imagenes/46.webp",
         description: "Bouquet circular con un girasol central rodeado de rosas rojas, rosadas y abundante gypsophila envuelto en papel rosa. Una composición que mezcla la calidez del sol con la dulzura del amor.",
-        categories: ["girasoles", "rosas", "precio-bajo"]
+        categories: ["girasoles", "rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 54,
@@ -347,7 +372,8 @@ const products = [
         price: 130812,
         image: "../assets/imagenes/2.webp",
         description: "Bouquet luminoso en tonos amarillos que reúne gerberas, rosas y nubes blancas envuelto en papel beige con detalles dorados. Una propuesta vibrante perfecta para alegrar el día de quien recibe.",
-        categories: ["gerberas", "bouquets", "precio-bajo"]
+        categories: ["gerberas", "bouquets", "precio-bajo"],
+        hidden: true
     },
     {
         id: 4,
@@ -355,7 +381,8 @@ const products = [
         price: 130812,
         image: "../assets/imagenes/4.webp",
         description: "Bouquet compacto en tonalidades fucsia y rosado con margaritas y rosas envuelto en papel blanco con puntos dorados. Una pieza vivaz y femenina que captura la atención por su intensidad cromática.",
-        categories: ["bouquets", "precio-bajo"]
+        categories: ["bouquets", "precio-bajo"],
+        hidden: true
     },
     {
         id: 5,
@@ -363,7 +390,8 @@ const products = [
         price: 130812,
         image: "../assets/imagenes/5.webp",
         description: "Bouquet abundante con girasol central, rosas, margaritas y follaje variado acompañado de una tarjeta dedicada con mensaje especial. Perfecto para conmover a esa figura materna que llena la vida de luz.",
-        categories: ["bouquets", "dia-madres", "precio-bajo"]
+        categories: ["bouquets", "dia-madres", "precio-bajo"],
+        hidden: true
     },
     {
         id: 6,
@@ -371,7 +399,8 @@ const products = [
         price: 130812,
         image: "../assets/imagenes/6.webp",
         description: "Bouquet de rosas en tonos vibrantes que mezcla rojo, amarillo, naranja y rosado en una composición circular. Envuelto en papel blanco que resalta cada matiz con frescura y armonía.",
-        categories: ["rosas", "bouquets", "precio-bajo"]
+        categories: ["rosas", "bouquets", "precio-bajo"],
+        hidden: true
     },
     {
         id: 8,
@@ -379,7 +408,8 @@ const products = [
         price: 130812,
         image: "../assets/imagenes/8.webp",
         description: "Bouquet de rosas blancas presentado sobre una base decorativa con cinta roja y detalles dorados. Una propuesta elegante y atemporal que evoca pureza y serenidad.",
-        categories: ["rosas", "novia", "precio-bajo"]
+        categories: ["rosas", "novia", "precio-bajo"],
+        hidden: true
     },
     {
         id: 31,
@@ -387,7 +417,8 @@ const products = [
         price: 132250,
         image: "../assets/imagenes/31.webp",
         description: "Caja redonda alta en negro con rosas rojas y doble lazo rojo decorativo. Un detalle imponente que transforma cualquier ocasión en un momento especial.",
-        categories: ["rosas", "cajas", "premium", "precio-bajo"]
+        categories: ["rosas", "cajas", "premium", "precio-bajo"],
+        hidden: true
     },
     {
         id: 53,
@@ -395,7 +426,8 @@ const products = [
         price: 132250,
         image: "../assets/imagenes/53.webp",
         description: "Bouquet de rosas rojas con eucalipto envuelto en papel negro con una caja de bombones en forma de corazón. Una propuesta elegante que combina lo floral con un dulce capricho.",
-        categories: ["rosas", "chocolates", "precio-bajo"]
+        categories: ["rosas", "chocolates", "precio-bajo"],
+        hidden: true
     },
     {
         id: 32,
@@ -403,7 +435,8 @@ const products = [
         price: 135700,
         image: "../assets/imagenes/32.webp",
         description: "Caja redonda en terciopelo negro con rosas rojas en forma de domo y banda roja con bordes dorados. Una composición refinada que combina texturas y volumen con maestría.",
-        categories: ["rosas", "cajas", "premium", "precio-bajo"]
+        categories: ["rosas", "cajas", "premium", "precio-bajo"],
+        hidden: true
     },
     {
         id: 49,
@@ -443,7 +476,8 @@ const products = [
         price: 166750,
         image: "../assets/imagenes/73.webp",
         description: "Ramo abundante de rosas fucsias envueltas en papel morado con corazones blancos y lazo rosado. Una propuesta intensa y femenina perfecta para enamorar a primera vista con su explosión de color.",
-        categories: ["rosas", "bouquets", "precio-medio"]
+        categories: ["rosas", "bouquets", "precio-medio"],
+        hidden: true
     },
     {
         id: 75,
@@ -451,7 +485,8 @@ const products = [
         price: 166750,
         image: "../assets/imagenes/75.webp",
         description: "Ramo redondo grande con rosas rojas y rosadas distribuidas en mosaico con banda blanca Feliz Día de las Madres en envoltura negra con detalles geométricos. Una pieza monumental para honrar a mamá en su día especial.",
-        categories: ["rosas", "dia-madres", "premium", "precio-medio"]
+        categories: ["rosas", "dia-madres", "premium", "precio-medio"],
+        hidden: true
     },
     {
         id: 76,
@@ -491,7 +526,8 @@ const products = [
         price: 189750,
         image: "../assets/imagenes/3.webp",
         description: "Bouquet rosado con margaritas y rosas acompañado de bombones en presentación corazón y tarjeta con dedicatoria. Una combinación tierna y reconciliadora para expresar lo que las palabras no alcanzan.",
-        categories: ["bouquets", "chocolates", "precio-medio"]
+        categories: ["bouquets", "chocolates", "precio-medio"],
+        hidden: true
     },
     {
         id: 67,
@@ -499,7 +535,8 @@ const products = [
         price: 189750,
         image: "../assets/imagenes/67.webp",
         description: "Composición en caja redonda con globo transparente decorado, claveles rosados y bombones dispuestos en la base. Una propuesta tierna y temática ideal para fechas románticas.",
-        categories: ["cajas", "chocolates", "precio-medio"]
+        categories: ["cajas", "chocolates", "precio-medio"],
+        hidden: true
     },
     {
         id: 68,
@@ -507,7 +544,8 @@ const products = [
         price: 189750,
         image: "../assets/imagenes/68.webp",
         description: "Caja redonda negra con rosas rojas y gypsophila coronada por un globo transparente con globos dorados en su interior. Una propuesta festiva para celebrar un aniversario inolvidable.",
-        categories: ["rosas", "cajas", "precio-medio"]
+        categories: ["rosas", "cajas", "precio-medio"],
+        hidden: true
     },
     {
         id: 52,
@@ -515,7 +553,8 @@ const products = [
         price: 190900,
         image: "../assets/imagenes/52.webp",
         description: "Arreglo grande con girasoles, rosas amarillas y fucsias acompañadas de aster blanco y abundante follaje verde. Una obra luminosa que transmite poder, alegría y vitalidad sin medida.",
-        categories: ["girasoles", "premium", "precio-medio"]
+        categories: ["girasoles", "premium", "precio-medio"],
+        hidden: true
     },
     {
         id: 42,
@@ -523,7 +562,8 @@ const products = [
         price: 201250,
         image: "../assets/imagenes/42.webp",
         description: "Arreglo vertical en forma piramidal con rosas rojas, gerberas, lirios blancos y heliconias sobre una base de madera. Una pieza imponente para ocasiones que merecen una presencia mayor.",
-        categories: ["premium", "gerberas", "precio-medio"]
+        categories: ["premium", "gerberas", "precio-medio"],
+        hidden: true
     },
     {
         id: 43,
@@ -531,7 +571,8 @@ const products = [
         price: 201250,
         image: "../assets/imagenes/43.webp",
         description: "Canasta artesanal con lirios amarillos y naranjas, gerberas, rosas y frutas frescas como piña, peras, uvas y bananos. Un obsequio completo que une la belleza floral con la abundancia natural.",
-        categories: ["canastas", "lirios", "precio-medio"]
+        categories: ["canastas", "lirios", "precio-medio"],
+        hidden: true
     },
     {
         id: 51,
@@ -539,7 +580,8 @@ const products = [
         price: 201250,
         image: "../assets/imagenes/51.webp",
         description: "Caja en forma de corazón rojo con rosas rojas dispuestas en domo y un pequeño lazo gris al centro. Una pieza simbólica perfecta para fechas románticas o aniversarios.",
-        categories: ["rosas", "cajas", "precio-medio"]
+        categories: ["rosas", "cajas", "precio-medio"],
+        hidden: true
     },
     {
         id: 60,
@@ -547,7 +589,8 @@ const products = [
         price: 201250,
         image: "../assets/imagenes/60.webp",
         description: "Bouquet circular con rosas en tonos rosados y blancos combinadas con lirios, acompañado de globos en forma de estrella y envoltura rosa. Una propuesta moderna y soñadora con un toque festivo.",
-        categories: ["rosas", "lirios", "precio-medio"]
+        categories: ["rosas", "lirios", "precio-medio"],
+        hidden: true
     },
     {
         id: 71,
@@ -555,7 +598,8 @@ const products = [
         price: 205850,
         image: "../assets/imagenes/71.webp",
         description: "Caja blanca con rosas fucsia, bombones y un globo transparente con globos rosados dorados en su interior. Una propuesta festiva y femenina para sorprender en grande.",
-        categories: ["rosas", "cajas", "chocolates", "precio-medio"]
+        categories: ["rosas", "cajas", "chocolates", "precio-medio"],
+        hidden: true
     },
     {
         id: 59,
@@ -563,7 +607,8 @@ const products = [
         price: 224250,
         image: "../assets/imagenes/59.webp",
         description: "Arreglo vertical con rosas rosadas, gerberas blancas y rosadas, un girasol y gladiolos fucsia. Una composición elevada y elegante perfecta para entregar belleza con grandeza.",
-        categories: ["rosas", "gerberas", "premium", "precio-medio"]
+        categories: ["rosas", "gerberas", "premium", "precio-medio"],
+        hidden: true
     },
     {
         id: 58,
@@ -571,7 +616,8 @@ const products = [
         price: 225400,
         image: "../assets/imagenes/58.webp",
         description: "Arreglo tropical de gran formato con girasoles, rosas rojas y rosadas, anturios, gerberas y aves del paraíso. Una composición exuberante que reúne lo mejor del jardín tropical en una sola pieza.",
-        categories: ["premium", "girasoles", "gerberas", "precio-medio"]
+        categories: ["premium", "girasoles", "gerberas", "precio-medio"],
+        hidden: true
     },
     {
         id: 1,
@@ -579,7 +625,8 @@ const products = [
         price: 236900,
         image: "../assets/imagenes/1.webp",
         description: "Composición clásica que reúne rosas rojas con lirios amarillos abiertos sobre un florero de cristal en tono rubí. La combinación irradia frescura y elegancia, ideal para regalar belleza con presencia.",
-        categories: ["rosas", "lirios", "precio-medio"]
+        categories: ["rosas", "lirios", "precio-medio"],
+        hidden: true
     },
     {
         id: 70,
@@ -587,7 +634,8 @@ const products = [
         price: 247250,
         image: "../assets/imagenes/70.webp",
         description: "Caja redonda verde con un girasol, alstroemerias, gypsophila, una botella de espumante y bombones. Una composición elegante que une lo gourmet con la luminosidad floral.",
-        categories: ["girasoles", "cajas", "chocolates", "precio-medio"]
+        categories: ["girasoles", "cajas", "chocolates", "precio-medio"],
+        hidden: true
     },
     {
         id: 50,
@@ -595,7 +643,8 @@ const products = [
         price: 258750,
         image: "../assets/imagenes/50.webp",
         description: "Composición circular abundante con rosas rojas, girasoles y bombones distribuidos en el centro con una tarjeta de cumpleaños. Un obsequio festivo que reúne flores y dulces en partes iguales.",
-        categories: ["girasoles", "rosas", "chocolates", "precio-alto"]
+        categories: ["girasoles", "rosas", "chocolates", "precio-alto"],
+        hidden: true
     },
     {
         id: 69,
@@ -603,7 +652,8 @@ const products = [
         price: 258750,
         image: "../assets/imagenes/69.webp",
         description: "Caja blanca con la frase Te Amamos que contiene rosas rojas, bombones, espumante y dos globos personalizados con fotos. Un obsequio completo y conmovedor para una celebración familiar especial.",
-        categories: ["rosas", "cajas", "chocolates", "dia-madres", "precio-alto"]
+        categories: ["rosas", "cajas", "chocolates", "dia-madres", "precio-alto"],
+        hidden: true
     },
     {
         id: 66,
@@ -619,7 +669,8 @@ const products = [
         price: 477250,
         image: "../assets/imagenes/44.webp",
         description: "Arreglo monumental en cascada con rosas de todos los colores, girasoles, frutas y follaje exuberante. Una obra floral de gran impacto reservada para celebraciones extraordinarias.",
-        categories: ["premium", "rosas", "girasoles", "precio-alto"]
+        categories: ["premium", "rosas", "girasoles", "precio-alto"],
+        hidden: true
     },
     {
         id: 78,
@@ -627,7 +678,8 @@ const products = [
         price: 141250,
         image: "../assets/imagenes/78.webp",
         description: "Bouquet en tonos rojos con rosas, alstroemerias y pompones de pétalos morados, decorado con mariposas doradas y una tarjeta especial sobre envoltura kraft. Un detalle tierno y romántico para recordarle lo bonita que es.",
-        categories: ["bouquets", "rosas", "precio-bajo"]
+        categories: ["bouquets", "rosas", "precio-bajo"],
+        hidden: true
     },
     {
         id: 79,
@@ -659,7 +711,8 @@ const products = [
         price: 168750,
         image: "../assets/imagenes/82.webp",
         description: "Ramo que combina lirios rosados con rosas rojas, gypsophila y eucalipto sobre envoltura kraft con lazo rojo. Una mezcla delicada y aromática que une la ternura y la pasión en un solo gesto.",
-        categories: ["bouquets", "lirios", "rosas", "precio-medio"]
+        categories: ["bouquets", "lirios", "rosas", "precio-medio"],
+        hidden: true
     },
     {
         id: 83,
@@ -667,7 +720,8 @@ const products = [
         price: 312500,
         image: "../assets/imagenes/83.webp",
         description: "Bouquet en forma de corazón con girasoles al centro rodeados de rosas rojas, decorado con mariposas y acompañado de chocolates Ferrero Rocher. Una composición vibrante que celebra el amor y la alegría.",
-        categories: ["bouquets", "girasoles", "rosas", "chocolates", "premium", "precio-alto"]
+        categories: ["bouquets", "girasoles", "rosas", "chocolates", "premium", "precio-alto"],
+        hidden: true
     },
     {
         id: 84,

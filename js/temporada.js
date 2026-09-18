@@ -297,6 +297,13 @@
             startCountdown(sec, season);
             if (season.flyer) setTimeout(function () { showFlyer(season, items); }, 700);
         });
+        // Ocultar los botones de filtro que no tienen ningún producto visible
+        document.querySelectorAll('.filters-container .filter-btn').forEach(function (btn) {
+            var f = btn.getAttribute('data-filter');
+            if (!f || f === 'todos') return;
+            var has = products.some(function (p) { return !p.hidden && p.categories && p.categories.indexOf(f) !== -1; });
+            if (!has) btn.style.display = 'none';
+        });
         // El filtro de Amor y Amistad debe quedar primero (fecha más cercana)
         var aa = document.querySelector('.filter-btn[data-filter="amor-amistad"]');
         var todos = document.querySelector('.filters-container .filter-btn[data-filter="todos"]');
