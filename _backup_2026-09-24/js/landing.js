@@ -16,10 +16,18 @@ const products = [
     {
         id: 15,
         name: "Sol y Rosas",
-        price: 77000,
+        price: 87000,
         image: "../assets/imagenes/15.webp",
         description: "Composición vertical que combina un girasol con rosas rojas y nubes blancas envuelta en papel blanco con tarjeta. Una propuesta luminosa que mezcla alegría y romanticismo.",
         categories: ["girasoles", "rosas", "precio-bajo"]
+    },
+    {
+        id: 21,
+        name: "Alegría Vibrante",
+        price: 77050,
+        image: "../assets/imagenes/21.webp",
+        description: "Bouquet con girasoles y claveles en tonos rosados y fucsia envuelto en papel rosa con lazo. Una composición campestre y alegre que celebra la vida con frescura.",
+        categories: ["girasoles", "bouquets", "precio-bajo"]
     },
     {
         id: 35,
@@ -32,7 +40,7 @@ const products = [
     {
         id: 36,
         name: "Tierno Capricho",
-        price: 77000,
+        price: 92000,
         image: "../assets/imagenes/36.webp",
         description: "Bouquet de rosas rosadas y rojas combinadas con gypsophila envuelto en papel rosa pálido. Una propuesta delicada y femenina que transmite ternura en cada pétalo.",
         categories: ["rosas", "precio-bajo"]
@@ -40,7 +48,7 @@ const products = [
     {
         id: 26,
         name: "Latido Floral",
-        price: 77000,
+        price: 93000,
         image: "../assets/imagenes/26.webp",
         description: "Bouquet de rosas rojas con flores amarillas tipo solidago envuelto en papel blanco con corazones rojos. Una composición que mezcla pasión y alegría en un solo gesto.",
         categories: ["rosas", "precio-bajo"]
@@ -48,7 +56,7 @@ const products = [
     {
         id: 57,
         name: "Sol Encendido",
-        price: 83950,
+        price: 94000,
         image: "../assets/imagenes/57.webp",
         description: "Bouquet con un girasol central rodeado de rosas rojas envuelto en papel blanco y malla roja con lazo. Una propuesta económica y vibrante para llevar luz a quien lo recibe.",
         categories: ["girasoles", "precio-bajo"]
@@ -56,7 +64,7 @@ const products = [
     {
         id: 37,
         name: "Jardín Romántico",
-        price: 87000,
+        price: 97000,
         image: "../assets/imagenes/37.webp",
         description: "Bouquet con rosas rosadas, rojas y flores blancas pequeñas con abundante follaje verde envuelto en papel rosa. Una composición campestre que recuerda un jardín en plena floración.",
         categories: ["rosas", "precio-bajo"]
@@ -64,7 +72,7 @@ const products = [
     {
         id: 38,
         name: "Sombras Carmesí",
-        price: 87400,
+        price: 97000,
         image: "../assets/imagenes/38.webp",
         description: "Bouquet de rosas rojas con gypsophila densa envuelto en papel negro con detalles dorados. Una composición que crea un contraste impactante entre el rojo, el blanco y el negro.",
         categories: ["rosas", "precio-bajo"]
@@ -72,7 +80,7 @@ const products = [
     {
         id: 64,
         name: "Para Ti Sol",
-        price: 84000,
+        price: 87400,
         image: "../assets/imagenes/64.webp",
         description: "Pequeña composición con un girasol y rosas rojas envuelta en papel gris con mensaje personalizado escrito a mano. Un detalle tierno y económico para una dedicatoria especial.",
         categories: ["girasoles", "precio-bajo"]
@@ -80,7 +88,7 @@ const products = [
     {
         id: 27,
         name: "Caricia de Amor",
-        price: 86000,
+        price: 96000,
         image: "../assets/imagenes/27.webp",
         description: "Bouquet de rosas rojas rodeadas de gypsophila envuelto en papel blanco con la palabra love y corazones dorados. Una declaración suave y elegante para enamorar nuevamente.",
         categories: ["rosas", "precio-bajo"]
@@ -96,15 +104,23 @@ const products = [
     {
         id: 18,
         name: "Noche Roja",
-        price: 87000,
+        price: 95450,
         image: "../assets/imagenes/18.webp",
         description: "Bouquet de rosas rojas con abundante gypsophila envuelto en papel negro con sellos dorados. Una propuesta sofisticada y misteriosa para impresionar con elegancia.",
         categories: ["rosas", "precio-bajo"]
     },
     {
+        id: 10,
+        name: "Caja Sorpresa Roja",
+        price: 96600,
+        image: "../assets/imagenes/10.webp",
+        description: "Caja redonda blanca con rosas rojas compactas acompañada de un globo transparente personalizado que flota sobre el arreglo. Un detalle moderno y festivo para celebrar momentos únicos.",
+        categories: ["cajas", "rosas", "precio-bajo"]
+    },
+    {
         id: 19,
         name: "Corazón de Rosas",
-        price: 94750,
+        price: 97750,
         image: "../assets/imagenes/19.webp",
         description: "Bouquet con rosas rojas dispuestas en forma de corazón rodeadas de gypsophila y envuelto en papel translúcido. Una declaración romántica con forma simbólica para conmover.",
         categories: ["rosas", "novia", "precio-bajo"]
@@ -112,15 +128,23 @@ const products = [
     {
         id: 72,
         name: "Mariposa de Pasión",
-        price: 100050,
+        price: 118000,
         image: "../assets/imagenes/72.webp",
         description: "Ramo abundante de rosas rojas con gypsophila blanca envuelto en papel blanco con motivos negros y una mariposa dorada decorativa. Una pieza romántica y sofisticada que combina pasión con un detalle alado de gran encanto.",
         categories: ["rosas", "precio-bajo"]
     },
     {
+        id: 7,
+        name: "Sol Encantador",
+        price: 100625,
+        image: "../assets/imagenes/7.webp",
+        description: "Pequeña composición que combina un girasol con rosas rojas envuelta en papel translúcido y un lazo rojo decorativo. Un detalle alegre y económico para sorprender con calidez.",
+        categories: ["girasoles", "precio-bajo"]
+    },
+    {
         id: 23,
         name: "Mini Detalle Rojo",
-        price: 97000,
+        price: 107000,
         image: "../assets/imagenes/23.webp",
         description: "Mini bouquet de rosas rojas con gypsophila acompañado de tarjeta y lazo rojo. Un detalle compacto y emotivo para entregar un mensaje sincero sin gastar de más.",
         categories: ["rosas", "precio-bajo"]
@@ -128,7 +152,7 @@ const products = [
     {
         id: 33,
         name: "Suspiro Rosa",
-        price: 103000,
+        price: 121000,
         image: "../assets/imagenes/33.webp",
         description: "Bouquet de rosas rojas con follaje verde envuelto en papel rosa pálido con un gran moño rojo en la base. Una composición fresca con un envoltorio que aporta dulzura al conjunto.",
         categories: ["rosas", "precio-bajo"]
@@ -144,7 +168,7 @@ const products = [
     {
         id: 39,
         name: "Despertar Rojo",
-        price: 97000,
+        price: 121000,
         image: "../assets/imagenes/39.webp",
         description: "Bouquet de rosas rojas con follaje verde envuelto en papel blanco con bordes dorados y lazo rojo. Una propuesta luminosa y clásica para alegrar cualquier mañana.",
         categories: ["rosas", "precio-bajo"]
@@ -152,7 +176,7 @@ const products = [
     {
         id: 41,
         name: "Mezcla Encantada",
-        price: 103500,
+        price: 128000,
         image: "../assets/imagenes/41.webp",
         description: "Bouquet variado con rosas en tonos blancos, rosados, fucsias y rojos acompañado de gypsophila y follaje verde. Una composición vibrante que celebra la diversidad cromática de las rosas.",
         categories: ["rosas", "bouquets", "precio-bajo"]
@@ -160,7 +184,7 @@ const products = [
     {
         id: 62,
         name: "Misterio Rojo",
-        price: 97000,
+        price: 121000,
         image: "../assets/imagenes/62.webp",
         description: "Bouquet alto con rosas rojas y follaje verde envuelto en papel negro con bordes dorados y lazo rojo. Una composición elegante y sobria que destaca por su simplicidad refinada.",
         categories: ["rosas", "precio-bajo"]
@@ -248,7 +272,7 @@ const products = [
     {
         id: 61,
         name: "Pasión Solar",
-        price: 111550,
+        price: 127000,
         image: "../assets/imagenes/61.webp",
         description: "Bouquet con girasoles centrales rodeados de rosas rojas y follaje envuelto en papel negro con la palabra love. Una composición intensa que combina romanticismo y alegría.",
         categories: ["girasoles", "rosas", "precio-bajo"]
@@ -296,7 +320,7 @@ const products = [
     {
         id: 28,
         name: "Caja Negra Clásica",
-        price: 118950,
+        price: 135000,
         image: "../assets/imagenes/28.webp",
         description: "Caja redonda negra con rosas rojas dispuestas en domo rodeadas de gypsophila y rematada con lazo rojo. Una propuesta clásica que conserva la frescura y la elegancia por más tiempo.",
         categories: ["rosas", "cajas", "precio-bajo"]
@@ -312,7 +336,7 @@ const products = [
     {
         id: 54,
         name: "Cúpula Carmesí",
-        price: 113000,
+        price: 129000,
         image: "../assets/imagenes/54.webp",
         description: "Bouquet circular abundante con rosas rojas y gypsophila envuelto en papel negro con bordes blancos en forma de pétalos. Una composición sofisticada con un envoltorio escultórico.",
         categories: ["rosas", "precio-bajo"]
@@ -392,7 +416,7 @@ const products = [
     {
         id: 77,
         name: "Sol Dorado Kraft",
-        price: 155250,
+        price: 155000,
         image: "../assets/imagenes/77.webp",
         description: "Ramo de girasoles con limonio acompañado de envoltura natural kraft y lazo dorado. Una propuesta luminosa y campestre que transmite calidez, serenidad y la energía del sol.",
         categories: ["girasoles", "bouquets", "precio-medio"]
@@ -400,10 +424,10 @@ const products = [
     {
         id: 30,
         name: "Caja Cubo Roja",
-        price: 130000,
+        price: 157000,
         image: "../assets/imagenes/30.webp",
         description: "Caja cuadrada negra con rosas rojas compactas y un gran lazo de seda roja al frente. Una pieza moderna y minimalista que combina geometría con romanticismo.",
-        categories: ["rosas", "cajas", "precio-bajo"]
+        categories: ["rosas", "cajas", "precio-medio"]
     },
     {
         id: 29,
@@ -432,7 +456,7 @@ const products = [
     {
         id: 76,
         name: "Esfera Carmesí",
-        price: 166000,
+        price: 186000,
         image: "../assets/imagenes/76.webp",
         description: "Ramo grande circular con rosas rojas y fucsias acompañadas de margaritas blancas en envoltura roja con bordes dorados. Una obra esférica que captura todas las miradas con su intensidad cromática.",
         categories: ["rosas", "bouquets", "premium", "precio-medio"]
@@ -440,7 +464,7 @@ const products = [
     {
         id: 47,
         name: "Caja Sentimiento",
-        price: 163000,
+        price: 169000,
         image: "../assets/imagenes/47.webp",
         description: "Caja redonda negra con rosas rojas compactas y gypsophila acompañada de un lazo rojo con detalle de flor. Una propuesta clásica y emotiva para guardar un sentimiento por más tiempo.",
         categories: ["rosas", "cajas", "precio-medio"]
@@ -456,7 +480,7 @@ const products = [
     {
         id: 55,
         name: "Sol y Amor",
-        price: 170200,
+        price: 170000,
         image: "../assets/imagenes/55.webp",
         description: "Caja en forma de corazón rosado con rosas rojas y girasoles distribuidos en el centro con gypsophila. Una pieza romántica que une la fuerza del sol con la pasión del amor.",
         categories: ["rosas", "girasoles", "cajas", "precio-medio"]
@@ -616,7 +640,7 @@ const products = [
     {
         id: 80,
         name: "Abrazo de Rosas",
-        price: 147500,
+        price: 147000,
         image: "../assets/imagenes/80.webp",
         description: "Ramo compacto de rosas rojas rodeado de gypsophila y envoltura dorada con lazo rojo. Una composición clásica y apasionada, perfecta para expresar un amor profundo y sincero.",
         categories: ["bouquets", "rosas", "precio-bajo"]
@@ -624,7 +648,7 @@ const products = [
     {
         id: 81,
         name: "Caja Negra Ferrero",
-        price: 167000,
+        price: 183000,
         image: "../assets/imagenes/81.webp",
         description: "Caja redonda negra con rosas rojas y gypsophila, coronada con una caja de chocolates Ferrero Rocher y lazo rojo. Una propuesta elegante y gourmet que combina romanticismo y sofisticación.",
         categories: ["cajas", "rosas", "chocolates", "premium", "precio-medio"]
